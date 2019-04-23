@@ -1,0 +1,20 @@
+package main
+
+func main() {
+
+	cards := newDeck()
+	cards.saveToFile("my_cards")
+
+	// fmt.Println(cards.toString())
+
+	// ---- sample 1
+	// hand, remCards := deal(cards, 5)
+	// hand.print()
+	// remCards.print()
+	// ---- end of sample 1
+
+	// ---- example of type casting
+	// greeting := "Hi there"
+	// fmt.Println([]byte(greeting))
+	// -------------------------------
+}

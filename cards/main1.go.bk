@@ -1,0 +1,27 @@
+package main
+
+func main() {
+	// Other basic initiailization of var
+	// var card string = "Ace of Spades"
+
+	// Other way to initializa card variable
+	// card := "Ace of Spades"
+	// card = "Override Aces of Spades"
+
+	// card := newCard()
+
+	// Slice of type string
+	cards := deck{"Ace of Diamonds", newCard()}
+	cards = append(cards, "Six of Spades")
+
+	cards.print()
+	// for i, card := range cards {
+	// 	fmt.Println(i, card)
+	// }
+
+	// fmt.Println(cards)
+}
+
+func newCard() string {
+	return "Five fo Diamonds"
+}
